@@ -4,6 +4,8 @@ A collection of small interactive features built with vanilla JavaScript.
 
 This project was created as a JavaScript practice playground to demonstrate DOM manipulation, event handling, and basic UI logic.
 
+## Live Demo
+https://lynxgva.github.io/JS-mini-projects/
 
 ## Included Features
 - Color switcher
