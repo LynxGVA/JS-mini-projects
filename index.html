@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Mini Projects</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="color-switcher">
+        <h1>Color Switcher</h1>
+        <button class="color-btn" data-color="red">Red</button>
+        <button class="color-btn" data-color="green">Green</button>
+        <button class="color-btn" data-color="blue">Blue</button>
+        <div class="block"></div>
+    </div>
+    
+    <div class="gallery">
+        <img src="img/img1.png" alt="Flower Image" class="photo">
+        <button class="previous">Previous</button>
+        <span class="text">1 / 5</span>
+        <button class="next">Next</button>
+    </div>
+
+    <div class="to-do-list">
+        <form class="task-form">
+            <input type="text" class="input-task" placeholder="Enter your task">
+            <button type="submit" class="add-task">Add Task</button>
+            <ul class="task-list"></ul>
+        </form>
+    </div>
+
+    <button class="open-modal">Open Modal</button>
+    <div class="overlay">
+        <div class="modal">
+            <button class="back-btn"></button>
+        </div>
+    </div>
+
+    <div class="slider-container">
+        <input type="range" min="0" max="100" value="50" class="slider">
+        <p>Value:<span class="value">50</span>%</p>
+    </div>
+
+    <div class="filter-products">
+        <div class="fruits">
+            <p>Fruits</p>
+            <input type="checkbox" class="filter-products-checkbox" value="Fruits">
+        </div>
+        <div class="vegetables">
+            <p>Vegetables</p>
+            <input type="checkbox" class="filter-products-checkbox" value="Vegetables">
+        </div>
+        <div class="drinks">
+            <p>Drinks</p>
+            <input type="checkbox" class="filter-products-checkbox" value="Drinks">
+        </div>
+        <ul class="productsFilteredList"></ul>
+    </div>
+
+    <div class="calculator">
+        <p class="calc-result">Empty</p>
+        <div class="calc-operations">
+            <button>+</button>
+            <button>-</button>
+            <button>/</button>
+            <button>*</button>
+            <button>=</button>
+            <button>C</button>
+        </div>
+        <div class="calc-numbers">
+            <button>0</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+        </div>
+    </div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
